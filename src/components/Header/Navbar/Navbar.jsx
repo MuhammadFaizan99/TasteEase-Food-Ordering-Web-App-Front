@@ -83,7 +83,7 @@ const Navbar = () => {
           <div className="user-options">
             <div className="user-profile" onClick={handleToggleMenu}>
               <img
-                src={`http://localhost:5173/uploads/${profileImage}`}
+                src={`${import.meta.env.VITE_REACT_APP_BASE_URL}uploads/${profileImage}`}
                 alt="User"
               />
               <div className="dropdown-icon">
